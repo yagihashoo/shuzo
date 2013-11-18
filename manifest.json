@@ -1,14 +1,14 @@
 {
-	"name": "俺に伝えてどうすんだよそんなこと！",
-	"version": "1",
-	"manifest_version": 2,
-	"content_security_policy": "script-src 'unsafe-eval'; object-src 'self'",
-	"description": "俺に伝えてどうすんだよそんなこと！",
-	"permissions": ["<all_urls>"],
-	"content_scripts": [
-		{
-			"matches": ["*://*/*"],
-			"js": ["jquery-2.0.3.min.js", "shortcut.js", "script.js"]
-		}
-	]
+  "name": "俺に伝えてどうすんだよそんなこと！",
+  "version": "1",
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'unsafe-eval'; object-src 'self'",
+  "description": "俺に伝えてどうすんだよそんなこと！",
+  "permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["jquery-2.0.3.min.js", "shortcut.js", "script.js"]
+    }
+  ]
 }
